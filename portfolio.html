@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #bbb 1px solid;
+        }
+
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+
+        header ul li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+
+        header #branding {
+            float: left;
+        }
+
+        header #branding h1 {
+            margin: 0;
+        }
+
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+
+        header .highlight,
+        header .current a {
+            color: #e8491d;
+            font-weight: bold;
+        }
+
+        header a:hover {
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        .banner {
+            padding: 80px 0;
+            color: black;
+            background: url('banner-image.jpg') no-repeat 0px -400px;
+            background-size: cover;
+            text-align: center;
+        }
+
+        .banner h1 {
+            font-size: 2.5em;
+            margin-bottom: 0;
+        }
+
+        .banner p {
+            font-size: 1.2em;
+        }
+
+        .call-to-action {
+            color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .call-to-action p {
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Prakhar Singh</span> Portfolio</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skill.html">Skills</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Banner Section -->
+    <section class="banner">
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I am a professional with expertise in web and Mobile Automation.</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio">
+        <div class="container">
+            <h2>My Work</h2>
+            <div class="portfolio-items">
+                <!-- Portfolio Item 1 -->
+                <div class="portfolio-item">
+                    <img src="Project1.png" style="width: 100px; " ,alt="Project 1">
+                    <h3 style="color: red;">Health Domain</h3>
+                    <p> It was a project based on Admin - User architecture of the health care domain US based project.
+                        Its admin was designed in web and users were using mobile and web both. I automated both the
+                        <strong> Web
+                            and mobile components (iOS and Android) </strong> using javascript langauge with Selenium
+                        and Appium
+                        tools
+                        respectively. It was done in <strong>Mocha Testing Framework </strong> of the JavaScript. In
+                        this project I worked
+                        as <strong>Quality Assurance Engineer</strong>.
+                        I was repsonsible for Sign off, Automation PR Reviews, Test Case Designing, Test Scenario
+                        Identification and Test Script development
+                    </p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project2.jpg" style="width: 100px; " , alt="Project 2">
+                    <h3 style="color: blue;">Telecommunication Domain</h3>
+                    <p>It was a project based on Sales - Customer of the Telecommunication Indian based project.
+                        It's salesman app was developed in the Android Technology. I automated the app which was in
+                        <strong>mobile App.</strong> using javascript langauge with Appium
+                        tools. It was done in <strong>Mocha Testing Framework </strong> of the JavaScript. In
+                        this project I worked
+                        as <strong>Software Developement Enigneer in Test</strong>.
+                        I was Automation PR Reviews, Test Case Designing, Test Scenario
+                        Identification and Test Script development
+                    </p>
+                </div>
+                <h2>Personal Project</h2>
+                <div class="portfolio-item">
+                    <img src="API.jpg" style="width: 100px; " , alt="Project 2">
+                    <h3 style="color: greenyellow;">API Automation</h3>
+                    <p>It is a dummy project provided CRUD based API Calls automation facility with JSDON Data SetI
+                        automated the app which was in
+                        <strong>mobile App.</strong> using javascript langauge. It was done in <strong>Mocha Testing
+                            Framework </strong> of the JavaScript with <strong> Super Test Library </strong>. In
+                        this project I have added HTML Reporting of Execution of Test Scripts.<br>
+                        Here is the link of the github repo for the <strong>Source Code </strong> of project:
+                        <a href="https://github.com/prakhar10-python/ApiAutomation"> Github Repository </a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="call-to-action">
+        <div class="container">
+            <h2>Interested in working together?</h2>
+            <p>Feel free to reach out to me if you have any projects or opportunities that you would like to discuss.
+            </p>
+            <a href="contact.html" class="btn">Contact Me</a>
+        </div>
+    </section>
+    <footer>
+        <p>Your Professional Portfolio © 2023</p>
+    </footer>
+</body>
+
+</html>

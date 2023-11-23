@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #bbb 1px solid;
+        }
+
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+
+        header ul li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+
+        header #branding {
+            float: left;
+        }
+
+        header #branding h1 {
+            margin: 0;
+        }
+
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+
+        header .highlight,
+        header .current a {
+            color: #e8491d;
+            font-weight: bold;
+        }
+
+        header a:hover {
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        .banner {
+            padding: 80px 0;
+            color: black;
+            background: url('banner-image.jpg') no-repeat 0px -400px;
+            background-size: cover;
+            text-align: center;
+        }
+
+        .banner h1 {
+            font-size: 2.5em;
+            margin-bottom: 0;
+        }
+
+        .banner p {
+            font-size: 1.2em;
+        }
+
+        .call-to-action {
+            color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .call-to-action p {
+            font-size: 1.2em;
+        }
+
+        /* Additional styles for the Skills section */
+        .skills-section {
+            background: #fff;
+            padding: 40px;
+            margin: 20px 0;
+        }
+
+        .skills-section h2 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .skill {
+            margin-bottom: 10px;
+        }
+
+        .skill-name {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .skill-bar {
+            background: #ddd;
+            border-radius: 3px;
+            overflow: hidden;
+        }
+
+        .skill-percentage {
+            height: 20px;
+            background: #e8491d;
+            line-height: 20px;
+            color: white;
+            text-align: center;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Prakhar Singh</span> Portfolio</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skill.html">Skills</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="skills-section">
+        <h2>My Professional Skills</h2>
+        <div class="skill">
+            <div class="skill-name">Mobile Testing</div>
+            <div class="skill-bar">
+                <div class="skill-percentage" style="width: 90%;">90%</div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">Web Manual</div>
+            <div class="skill-bar">
+                <div class="skill-percentage" style="width: 90%;">90%</div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">Performance Testing</div>
+            <div class="skill-bar">
+                <div class="skill-percentage" style="width: 50%;">50%</div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">SQL</div>
+            <div class="skill-bar">
+                <div class="skill-percentage" style="width: 70%;">70%</div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">Version Control</div>
+            <div class="skill-bar">
+                <div class="skill-percentage" style="width: 60%;">60%</div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">PMT</div>
+            <div class="skill-bar">
+                <div class="skill-percentage" style="width: 60%;">60%</div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">CI/CD</div>
+            <div class="skill-bar">
+                <div class="skill-percentage" style="width: 20%;">20%</div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">Mobile Automation</div>
+            <div class="skill-bar">
+                <div class="skill-percentage" style="width: 85%;">85%</div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">Web Automation</div>
+            <div class="skill-bar">
+                <div class="skill-percentage" style="width: 80%;">80%</div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">API Automation</div>
+            <div class="skill-bar">
+                <div class="skill-percentage" style="width: 50%;">50%</div>
+            </div>
+        </div>
+        <!-- Add more skill bars for other skills as needed -->
+    </section>
+
+
+    <footer>
+        <p>Your Professional Portfolio © 2023</p>
+    </footer>
+</body>
+
+</html>
